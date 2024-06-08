@@ -1,4 +1,5 @@
 <Nav />
 <Hero />
 <Section1 />
+<Section2 />
 <Footer />
