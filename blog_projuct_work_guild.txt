@@ -1,0 +1,35 @@
+blog project
+
+> Nav
+> hero
+> section1
+> section 2
+< footer
+
+// dev 1
+> Nav
+> footer
+> section 2
+
+//dev 2
+> hero
+> section 1
+
+// branches
+> master
+> test
+> nav
+> hero
+> section1
+> section2
+> footer
+
+// dev 1 nav add to test: nav > master : nav
+
+// dev 2 hero add to test: nav,hero > master: nav,hero
+
+// dev 1 footer add to test: nav,hero, footer > master : nav, hero, footer
+
+// dev 2 section1 add to test: nav,hero,footer, section 1 > master: nav,hero,footer, section 1
+
+// dev 1 section 2 add to test: nav,hero,footer,section1, section 2 > master: nav,hero,footr,section1, section2
